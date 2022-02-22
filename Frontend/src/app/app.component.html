@@ -1,0 +1,18 @@
+<div>
+  <canvas id="myChart" width="100" height="100"></canvas>
+</div>
+
+<div>
+  <form [formGroup]="scuffedForm">
+
+    <div>
+      <label for="Tag">
+        Tag
+      </label>
+      <input id="tag" type="text" formControlName="tag">
+    </div>
+    <button (click)="getChartValues()">Submit</button>
+  </form>
+  
+</div>
+
